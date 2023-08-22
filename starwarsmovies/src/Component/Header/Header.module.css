@@ -1,0 +1,15 @@
+.Header{
+    height: 100px;
+    border: 1px solid;
+    background: #040D12;
+}
+.Title{
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+.Title a{
+    color: #fff !important;
+    text-decoration: none;
+
+}
