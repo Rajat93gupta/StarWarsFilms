@@ -1,15 +1,29 @@
 .Header{
-    height: 100px;
+    height: 150px;
     border: 1px solid;
-    background: #040D12;
+    /* background: #040D12; */
+    background: url(../../Assests/20884.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .Title{
     text-align: center;
     text-transform: capitalize;
+    font-size: 25px;
     
 }
 .Title a{
     color: #fff !important;
     text-decoration: none;
 
+}
+.Title h1{
+    font-size: 64px;
+    color: #a36f14;
+    font-family: Arial Black, Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(181,182,245), 0px 1px 0 rgb(171,172,235), 0px 2px 0 rgb(161,162,225), 0px 3px 0 rgb(151,152,215), 0px 4px 0 rgb(141,142,205), 0px 5px 0 rgb(131,132,195), 0px 6px 5px rgba(0,0,0,1), 0px 6px 1px rgba(0,0,0,0.5), 0px 0px 5px rgba(0,0,0,.2);
 }

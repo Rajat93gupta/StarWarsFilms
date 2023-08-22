@@ -21,16 +21,16 @@ const Detail = () => {
     return (
         <div>
             <Header />
-            <div className="MiddleBox">
+            <div className={`${style.MiddleBox}`}>
                 <div className="container ">
                     {!loading ? (
                         <div className={`${style.ContenctBox} row`} >
-                            <div className="col-md-6">
+                               <div className={`${style.Shadow} col-md-6`}>
                                 <div>
                                     image
                                 </div>
                             </div>
-                            <div className="col-md-6">
+                            <div className={`${style.Shadow} col-md-6`}>
                                <div >
                                <h2>{film.title}</h2>
                                 <h5> Episode : {film.episode_id}</h5>
