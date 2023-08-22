@@ -13,7 +13,7 @@ const Detail = () => {
     const [film, setFilm] = useState({});
     useEffect(() => {
         axios.get(`https://swapi.dev/api/films/${id}`).then((res) => {
-            // console.log(res)
+            console.log(res)
             setFilm(res.data);
             setLoading(false)
         });

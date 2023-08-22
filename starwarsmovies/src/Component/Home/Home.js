@@ -36,7 +36,7 @@ const Home = () => {
                                 return (
                                     <div className="col-lg-4 col-md-4 col-sm-6  " key={item.episode_id}>
                                         <div
-                                            onClick={() => HandleOpen(item.episode_id)}
+                                            onClick={() => HandleOpen(index+1)}
                                             className={`${style.BoxModel} border m-1 text-center`}
                                         >
                                             <p className={`${style.title}`}>{item.title}</p>
