@@ -64,7 +64,36 @@ const Home = () => {
                             />
                         </div>
                     )}
+
                 </div>
+
+            </div>
+            <div className="container">
+                <div className="row mt-5">
+                    <div className="col-md-6">
+                        <div className="demo">
+                            sdfsd
+                        </div>
+                    </div>
+                    <div className="col-md-6">
+                        <div className="demo">
+                            sdfsd
+                        </div>
+                    </div>
+                </div>
+                <div className="row ">
+                    <div className="col-md-6">
+                    <div className="demo">
+                            sdfsd
+                        </div>
+                    </div>
+                    <div className="col-md-6">
+                    <div className="demo">
+                            sdfsd
+                        </div>
+                    </div>
+                </div>
+                
             </div>
 
             <Footer />

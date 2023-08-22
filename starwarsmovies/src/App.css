@@ -3,7 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-.MiddleBox{
-  height: 100vh;
-  background-color: #5C8374;
+body{
+  min-height: 100vh;
+}
+.demo{
+  height: 200px;
+  width: 200px;
+  border: 1px solid;
 }
